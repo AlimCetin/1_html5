@@ -1,0 +1,244 @@
+<!DOCTYPE html>  <!--HTML 5 Bildirim-->
+<html lang="en">
+
+<head> <!--bilgi-->
+    <meta charset="UTF-8"><!--karekter seti-->
+    <meta name="description" content="html 5 nedir"><!--açıklama metni-->
+  <meta name="keywords" content="HTML, html5"><!--anahtar kelime-->
+  <meta name="author" content="Ali çetin"><!--yazan kişi-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--cihazlara uyum ayarı-->
+    <title>Document</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../image/residential-8278516_1280.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+
+<body>
+    <!-- start codes-->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> <!--paragraf-->
+    <hr> <!--düz uzun çizgi-->
+       <!-- h1---- h6 -->
+       <h1>Heading -1 </h1>
+       <h2>Heading -2 </h2>
+       <h3>Heading -3 </h3>
+       <h4>Heading -4 </h4>
+       <h5>Heading -5 </h5>
+       <h6>Heading -6 </h6>
+       <hr>
+       <!-- Html formatları -->
+       <br/> <!--alt satıra geçer-->
+      <b>bold</b> <br /><!--alt satıra geçer-->
+      <i>italic</i><br /><!--italik -->
+      <p>big</p> <BR />
+      <small>small</small> <br /><!--yazıyı küçük yapar-->
+      <strong>strong</strong> <br /><!--kalın yapar. tarayıcı önemli olarak algılar.-->
+      <em>em</em> <br /><!--italik yapar. web okoyucu vurgular-->
+      <mark>mark</mark> <br /><!--fosforlu kalem-->
+      <q>Tırnak</q><br /><!--tırnak-->
+      <pre><!--olduğugibi boşluklu gösterir-->
+              1.satır 
+              2.satır 
+              3.satır 
+          4.satır     
+      </pre>
+      <del>1000</del>TL 999.9TL <br /><!--ortası çizgili yapar.-->
+      <ins>altını çizmek</ins> <br /><!--altı çizgili yapar-->
+      10<sup>5</sup><br /><!--üstlü ifade-->
+      log<sub>2</sub>n<!--altlı ifade-->
+      <hr>
+      <span>satır</span><!--hiçbir şeyi temsil etmez.-->
+      <span>satır2</span>
+      <div>alt satıracak geçirecek tepsi</div><!--alan oluşturuyor-->
+      <hr>
+          <!-- liste -->
+      <ol start="5" type="I"><!--sayısal listeler-->
+          <li>item 1 </li>
+          <li>item 2 </li>
+          <li>item 3 </li>
+          <li>item 4 </li>
+      </ol>
+      <ul><!--şekilsel listeler-->
+          <li>item 1 </li>
+          <li>item 2 </li>
+          <li>item 3 </li>
+          <li>item 4 </li>
+      </ul>
+       <!-- link -->
+       <a href="https://www.google.com">Clik me!</a>
+  
+      <!-- whatsapp link -->
+      <a href="https://wa.me/905555555555" target="_blank">Whatsapp</a> <br />
+  
+      <!-- tel  link -->
+      <a href="tel:+905555555555">Call me!</a> <br />
+  
+      <!-- email  link -->
+      <a href="mailto:alimcetin@gmail.com">Mail Send</a> <br />
+  
+      <!-- resim ekleme -->
+      <a href="https://www.google.com" target="_blank">
+          <img src="../image/residential-8278516_1280.jpg" alt="" srcset="">
+      </a>
+  
+      <a href="https://www.google.com">
+          <img src="../image/residential-8278516_1280.jpg" alt="" srcset="">
+      </a>
+      <img src="../image/residential-8278516_1280.jpg" alt="" srcset="">
+  
+   <!-- iframe   sayfa içinde sayfa açma-->
+      <iframe src="https://www.facebook.com" frameborder="1"></iframe>
+  
+  <!-- map ekleme sitesi => https://www.maps.ie/create-google-map/ -->
+  <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=kastamonu,tosya+(Bulundu%C4%9Fum%20yer)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population Estimator map</a></iframe></div>
+  
+      <!-- address  -->
+      <address>
+          <p>Ali ÇETİN</p>
+          <p>KASTAMONU , Tosya</p>
+          <p>Türkiye</p>
+      </address>
+        <!-- üstüne gelince çıkan yazı  -->
+        <abbr title="Hyper Text Markup Language">HTML</abbr>
+  
+            <!-- icon  -->
+      <i class="fa-brands fa-instagram"></i>
+  
+    <!-- emoji -->
+    <p>&#128512 deneme</p>
+    <hr>
+  
+  <!--ses ekleme-->
+    <audio controls>
+      <source src="a.mp3" type="audio/mp3">
+      hata olunca yazacak yazı.
+  </audio>
+  
+  <!--video ekleme-->
+  <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4">
+     
+      hata olunca yazacak yazı.
+  </video>
+      <!-- table  -->
+      <table border="1" width="100%"> <!--tablo oluştugu yerdir.-->
+          <thead> <!--tablo başlığı-->
+              <tr>
+                  <th>ID</th>
+                  <th>NAME</th>
+                  <th>SURNAME</th>
+              </tr>
+          </thead>
+          <tbody> <!--data-->
+              <tr>
+                  <td>1</td>
+                  <td>ADI-1</td>
+                  <td>SOYADI-1</td>
+              </tr>
+              <tr>
+                  <td>2</td>
+                  <td>ADI-1</td>
+                  <td>SOYADI-1</td>
+              </tr>
+              <tr>
+                  <td>3</td>
+                  <td>ADI-1</td>
+                  <td>SOYADI-1</td>
+              </tr>
+              <tr>
+                  <td>4</td>
+                  <td>ADI-1</td>
+                  <td>SOYADI-1</td>
+              </tr>
+          </tbody>
+          <tfoot><!--alt başlığı-->
+              <tr>
+                  <th colspan="3">&copy All Rezerved</th>
+              </tr>
+          </tfoot>
+      </table>
+      <hr>
+      <br><br>
+  
+      <!-- FORM -->
+      <form action="#" method="get" autocomplete="on"> 
+          <fieldset>
+              <legend>Register information:</legend>
+              <table border="1" >  
+                  <tbody> 
+                      <!-- NAME -->
+                      <tr> 
+                          <div>
+                              <td>
+                                  <label for="user_name"><b>Adınız</b></label>
+                              </td>
+                              <td>
+                                  <input type="text" name="user_name" id="user_name" value="Ali Çetin" title="adınız" required
+                                      autofocus><br>
+                              </td>
+                          </div>
+                      </tr>
+  
+                      <!-- SURNAME -->
+                      <tr>
+                          <div>
+                              <td>
+                                  <label for="user_surname"><b>Soyadınız:</b></label>
+                              </td>
+                              <td>
+                                  <input type="text" name="user_surname" id="user_surname" placeholder="soyadınız"
+                                      title="soyadınız" required><br>
+                              </td>
+                          </div>
+                      </tr>
+  
+                      <!-- EMAİL -->
+                      <tr>
+                          <div>
+                              <td>
+                                  <label for="user_email"> <b>Emailiniz:</b> </label>
+                              </td>
+                              <td>
+                                  <input type="email" name="user_email" id="user_email" placeholder="emailiniz"
+                                      title="emailiniz" required><br>
+                              </td>
+                          </div>
+                      </tr>
+  
+                      <!-- PASSWORD -->
+                      <tr>
+                          <div>
+                              <td>
+                                  <label for="user_password"><b>Şifreniz:</b> </label>
+                              </td>
+                              <td>
+                                  <input type="password" name="user_password" id="user_password" placeholder="Şifreniz"
+                                      title="Şifreniz" required><br>
+                              </td>
+                          </div>
+                      </tr>
+  
+                      <!-- SEND -->
+                      <tr>
+                          <div>
+                              <td>
+                                  <label><b>Send</b></label>
+                              </td>
+                              <td>
+                                  <input type="reset" name="reset" id="reset" title="Temizle" value="Temizle">
+                                  <button type="submit" name="submit" id="submit" title="Gönder"> Gönder</button>
+                              </td>
+                          </div>
+                      </tr>
+                  </tbody>
+              </table>
+          </fieldset>
+      </form>
+  
+    <!-- end codes-->
+</body>
+
+</html>
